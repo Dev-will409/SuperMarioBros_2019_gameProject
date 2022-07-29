@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="GameCore">
+      <UniqueIdentifier>{a5d563ac-41a4-4c25-b7e3-40e1ae38339e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BaseObject">
+      <UniqueIdentifier>{b1bd7642-ae30-47d1-bc7e-3ef16b98d977}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object">
+      <UniqueIdentifier>{2463094f-31ff-45fa-8d35-41a6952cee7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System">
+      <UniqueIdentifier>{8f6e20f7-3a25-4c39-901c-3f5c5400e985}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util">
+      <UniqueIdentifier>{8d642ada-7e24-4a71-9242-df93fbc0eb9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Image">
+      <UniqueIdentifier>{991bbb18-4908-4c9c-be91-e74d88594835}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\BackBuffer">
+      <UniqueIdentifier>{e33e989f-8c9e-4130-8f26-f65d0f02c635}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Camera">
+      <UniqueIdentifier>{d7b33d19-faf3-48ae-8b8e-fe67aaee4d5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Input">
+      <UniqueIdentifier>{8c016b0a-1212-4b44-8739-78c6afa99584}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Timer">
+      <UniqueIdentifier>{efd6380f-ef81-4227-b806-dc5afac22130}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Animation">
+      <UniqueIdentifier>{47b9713b-af9a-4845-abeb-41be14fb1201}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Mario">
+      <UniqueIdentifier>{41feef24-ddcd-43f2-b8cd-a7be849a289c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Map">
+      <UniqueIdentifier>{d1432f1f-53f7-4b5f-b088-97f83d90779b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Enemy">
+      <UniqueIdentifier>{33336b6d-e417-4fa9-82dc-9a7c673ef45c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util\Collision">
+      <UniqueIdentifier>{aeb46716-3a17-4a92-8a5f-cad6fd35ba12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Block">
+      <UniqueIdentifier>{39d82f8a-521a-4c38-a669-0a03e12d8e17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Effect">
+      <UniqueIdentifier>{ecda130f-5204-4a26-a78f-0aba42832b62}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SuperMarioBros.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="GameCore\GameBase.cpp">
+      <Filter>GameCore</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseObject\BaseObject.cpp">
+      <Filter>BaseObject</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Image\Image.cpp">
+      <Filter>System\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="System\BackBuffer\BackBuffer.cpp">
+      <Filter>System\BackBuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Camera\Camera.cpp">
+      <Filter>System\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Input\Input.cpp">
+      <Filter>System\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Timer\Timer.cpp">
+      <Filter>System\Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Timer\TimeManager.cpp">
+      <Filter>System\Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Animation\Animation.cpp">
+      <Filter>System\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Animation\MotionList.cpp">
+      <Filter>System\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Mario\Mario.cpp">
+      <Filter>Object\Mario</Filter>
+    </ClCompile>
+    <ClCompile Include="GameCore\GameMain.cpp">
+      <Filter>GameCore</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Image\ImageManager.cpp">
+      <Filter>System\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Map\Map.cpp">
+      <Filter>Object\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Enemy\Enemy.cpp">
+      <Filter>Object\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\Collision\Collision.cpp">
+      <Filter>Util\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseObject\ObjectManager.cpp">
+      <Filter>BaseObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Block\Block.cpp">
+      <Filter>Object\Block</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Block\CoinBlock.cpp">
+      <Filter>Object\Block</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect\Effect.cpp">
+      <Filter>Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Block\Brick.cpp">
+      <Filter>Object\Block</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Block\Pipe.cpp">
+      <Filter>Object\Block</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Include\SystemH.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\UserDefine.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\UserType.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="GameCore\GameBase.h">
+      <Filter>GameCore</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseObject\BaseObject.h">
+      <Filter>BaseObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\Util.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Image\Image.h">
+      <Filter>System\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="System\BackBuffer\BackBuffer.h">
+      <Filter>System\BackBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Camera\Camera.h">
+      <Filter>System\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Input\Input.h">
+      <Filter>System\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Timer\Timer.h">
+      <Filter>System\Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Timer\TimeManager.h">
+      <Filter>System\Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Animation\Animation.h">
+      <Filter>System\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Animation\MotionList.h">
+      <Filter>System\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Mario\Mario.h">
+      <Filter>Object\Mario</Filter>
+    </ClInclude>
+    <ClInclude Include="GameCore\GameMain.h">
+      <Filter>GameCore</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Image\ImageManager.h">
+      <Filter>System\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Map\Map.h">
+      <Filter>Object\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Enemy\Enemy.h">
+      <Filter>Object\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\Collision\Collision.h">
+      <Filter>Util\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseObject\ObjectManager.h">
+      <Filter>BaseObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Block\Block.h">
+      <Filter>Object\Block</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Block\CoinBlock.h">
+      <Filter>Object\Block</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect\Effect.h">
+      <Filter>Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Block\Brick.h">
+      <Filter>Object\Block</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Block\Pipe.h">
+      <Filter>Object\Block</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,4 @@
+coinblock 	 - 13
+block	 	 - 31
+pipe		 - 6
+brick		 - 68
